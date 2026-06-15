@@ -1,0 +1,44 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0d1117; /* GitHub Dark Mode color */
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.social-link {
+    display: block;
+    background-color: #21262d;
+    color: #c9d1d9;
+    text-decoration: none;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #30363d;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+/* Hover animations */
+.social-link:hover {
+    background-color: #58a6ff;
+    color: #ffffff;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(88, 166, 255, 0.3);
+}
